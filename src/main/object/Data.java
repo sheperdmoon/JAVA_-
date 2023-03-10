@@ -6,9 +6,9 @@ import java.util.ArrayList;
 public class Data {
     Connection con = null;
     String driver = "com.mysql.cj.jdbc.Driver";
-    String url = "jdbc:mysql://localhost:3306/school";
+    String url = "jdbc:mysql://localhost:3306/db";
     String name = "root";
-    String passwd = "zhiyouniyn17";
+    String passwd = "123456";
 
     /* 加载数据库驱动并连接*/
     public Data(){
